@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+}
+body{
+    color: #333;
+    font: 4px/1.14 "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体";
+}
+/*a標籤，鼠標滑過事件，獲取焦點時去掉下劃線*/
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+body，ul,li,i{
+    list-style: none;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fbf8f8;
+}
+/*頁面頭部*/
+#header{
+    /*position: fixed;*/
+    width: 100%;
+    background-color: #fff;
+    border-bottom:1px solid #e5e5e5;
+}
+/*頭部導航*/
+#header .navbar{
+    /*position: fixed;*/
+    font: 16px/1.5 latoregular, Verdana, sans-serif;
+    border: 0;
+    margin: 0;
+    z-index: 999;
+    padding: 2.5px 0;
+    background-color: rgba(255, 255, 255, 0.96);
+    /*陰影*/
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+}
+.wrapper{
+    /*position: fixed;*/
+}
+#header .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*左側logo圖片定位*/
+#header .container .navbar-header{
+    position: relative;
+    padding: 15px;
+}
+/*右側菜單欄*/
+#header .container #main-menu{
+    margin-left: 0;
+}
+#header .container #main-menu ul #position {
+    margin-right: 50px;
+}
+#header .container #main-menu .nav > li {
+    margin: 0;
+}
+#header .container #main-menu .nav > a {
+    padding: 10px 15px;
+}
+#header .container #main-menu .active > a {
+    color: #e94840;
+    background-color: #fff;
+}
+#header .container #main-menu .navbar-nav li a {
+    outline: none;
+}
+#header .navbar-collapse .navbar-nav > li > a {
+    color: #121212;
+    font-weight: bold;
+    font-size: 16px;
+}
+#header .container #main-menu li a:hover {
+    color: #e94840;
+    background-color: #fff;
+}
+#header .container #main-menu li:last-child {
+    margin-right: 0;
+}
+#header .container #main-menu li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 50px;
+}
